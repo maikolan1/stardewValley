@@ -1,0 +1,115 @@
+@font-face {
+  font-family: stardewCaps;
+  src: url(../fontes/Stardew\ Valley\ ALL\ CAPS.ttf);
+}
+
+@font-face {
+  font-family: stardewFont;
+  src: url(../fontes/stardew-item-font.ttf);
+}
+
+.titulo {
+  text-align: center;
+  font-family: stardewCaps;
+  font-size: 3rem;
+  background-color: #0e78d6;
+  color: #ffe249;
+  padding: 20px 0;
+  padding-bottom: 2px;
+}
+
+.img1 {
+  width: 600px;
+  height: auto;
+  margin: 2rem;
+}
+
+.img2 {
+  width: 600px;
+  height: auto;
+  margin: 2rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: stardewFont;
+  font-size: 1.9rem;
+  text-align: center;
+  color: #f7b327;
+  margin: 28px 0;
+}
+
+p {
+  font-family: stardewFont;
+  font-size: 1.9rem;
+  color: #ffe249;
+  padding: 10px 0;
+}
+
+.areaSuperior {
+  margin-top: 50px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  grid-gap: 10px;
+}
+
+.dv2 {
+  background-color: #0e78d6;
+  padding: 12px;
+}
+
+body{
+  background-color: #5fd9d4;
+}
+
+@media(max-width: 480px){
+
+  .titulo {
+    text-align: center;
+    font-family: stardewCaps;
+    font-size: 1rem;
+    background-color: #0e78d6;
+    color: #ffe249;
+    padding: 20px 0;
+    padding-bottom: 2px;
+  }
+
+  .img1 {
+    width: 425px;
+    height: auto;
+    margin: 2rem;
+  }
+
+  .img2 {
+    width: 425px;
+    height: auto;
+    margin: 2rem;
+  }
+
+  .areaSuperior {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: auto;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 20px;
+  }
+
+  .txt{
+    text-align: justify;
+    font-family: stardewFont;
+    font-size: 1.9rem;
+    text-align: center;
+    color: #f7b327;
+    margin: 28px 0;
+  }
+
+  .dv2{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+  }
+}
